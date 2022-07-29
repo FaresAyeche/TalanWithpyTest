@@ -1,8 +1,8 @@
 from selenium import webdriver
 
-
-from Config1.config import TestData
 from TEST1.test_base import BaseTest
+from Config1.config import TestData
+
 from pages.connexionPage import connexion
 class Test_connexion(BaseTest):
 
