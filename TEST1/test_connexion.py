@@ -1,9 +1,9 @@
 from selenium import webdriver
 
 from test_base import BaseTest
-from Config1.config import TestData
+from config import TestData
 
-from pages.connexionPage import connexion
+from connexionPage import connexion
 class Test_connexion(BaseTest):
 
     def test_valid_connexion(self):
